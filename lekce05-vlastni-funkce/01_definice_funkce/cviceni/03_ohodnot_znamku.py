@@ -6,4 +6,15 @@
 #    cokoliv jiného → "Ještě zabereme".
 #    Zavolej ji v cyklu for pro známky 1 až 5.
 
+def ohodnot_znamku(znamka):
+    if znamka == 1:
+        print("výborně")
+    elif znamka == 2:
+        print("Chvalitebně")
+    elif znamka == 3:
+        print("Dobře")
+    else:
+        print("Ještě zabereme!")
 
+for znamka in range(1,6):
+    ohodnot_znamku(znamka)

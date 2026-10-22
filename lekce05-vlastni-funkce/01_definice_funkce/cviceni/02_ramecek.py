@@ -7,4 +7,13 @@
 # Můžeš v ní použít oddelovac() z prvního úkolu – zkopíruj si jeho
 # definici sem nahoru, soubory se navzájem nevidí.
 
+def oddelovac():
+    print("*" * 30)
 
+def ramecek(retezec):
+    oddelovac()
+    print(retezec)
+    oddelovac()
+
+ramecek("Dobrý večer!")
+ramecek("Co bude dnes k večeři?")
