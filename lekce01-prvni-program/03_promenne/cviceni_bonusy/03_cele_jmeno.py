@@ -4,4 +4,7 @@
 # Vytvoř proměnné jmeno a prijmeni.
 #     Vypiš na jeden řádek celé jméno.
 
+jmeno = "Jana"
+prijmeni = "Křížová"
+print(jmeno, prijmeni)
 

@@ -9,4 +9,10 @@
 #        4 8 12 16
 #    Jak pojmenuješ obě proměnné cyklu? Zamysli se, ať dávají smysl.
 
-
+r = int(input("Počet řádků: "))
+s = int(input("Počet sloupců: "))
+for r in range(1, r + 1):
+    for s in range(1, s + 1):
+        print(r * s, end = " ")
+    print()
+    

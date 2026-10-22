@@ -6,4 +6,5 @@ a = 17
 b = 4
 c = 23
 
-
+print(max(a, b, c,))
+print(min(a, b, c))

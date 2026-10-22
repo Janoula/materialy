@@ -4,4 +4,5 @@
 # Zeptej se uživatele na jeho věk, převeď ho na číslo
 #    a vypiš, kolik mu bude za 10 let.
 
-
+vek = int(input("Kolik ti je? "))
+print("Tak to ti za chvíli bude ", (vek + 10) // 10 * 10)

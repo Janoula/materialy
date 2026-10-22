@@ -5,4 +5,7 @@
 #    jak velké je to největší z nich bez ohledu na znaménko.
 #    Např. z čísel -20, 5 a 12 je největší velikost 20.
 
-
+a = abs(int(input("Prvni:")))
+b = abs(int(input("Prvni:")))
+c = abs(int(input("Prvni:")))
+print(max(a, b, c))

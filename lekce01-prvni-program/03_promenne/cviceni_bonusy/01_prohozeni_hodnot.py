@@ -6,3 +6,10 @@
 #     Nakonec obě vypiš.
 
 
+a = 5
+b = 3
+schovana = a   # dočasně si schováme hodnotu a
+a = b
+b = schovana
+print(a, b)
+

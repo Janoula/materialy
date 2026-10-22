@@ -4,4 +4,4 @@
 # Zjisti, co udělá \n uvnitř textu.
 #     Pak jedním printem vypiš své jméno a příjmení pod sebe.
 
-
+print("Jana\nKřížová")

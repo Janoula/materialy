@@ -5,3 +5,7 @@
 #    Výsledek vypiš (má vyjít 1024).
 
 
+mocnina = 1
+for i in range(10):
+    mocnina = mocnina * 2
+print(mocnina)

@@ -21,12 +21,12 @@ for cislo in range(1, 21):
 print("sudých čísel:", pocet)     # 10
 
 
-# Šikovný pomocník: zápis  pismeno in "aeiou"  zjistí, jestli je písmeno
+# Šikovný pomocník: zápis  pismeno in "aeiouy"  zjistí, jestli je písmeno
 # jedno z těch v uvozovkách (vrátí True/False). V cyklu se skvěle hodí –
 # třeba spočítat samohlásky ve slově:
-slovo = "ananas"
+slovo = "karamboly"
 samohlasky = 0
 for pismeno in slovo:
-    if pismeno in "aeiou":
+    if pismeno in "aeiouy":
         samohlasky = samohlasky + 1
 print("samohlásek:", samohlasky)  # 3

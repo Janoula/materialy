@@ -5,7 +5,10 @@
 #    když je součet každých dvou stran větší než ta třetí.
 #    Vypiš "Platný trojúhelník." / "Takový trojúhelník nejde.".
 a = 3
-b = 4
-c = 5
+b = 3
+c = 6
 
-
+if (a + b) > c and (b + c) > a and (a + c) > b:
+    print("Platný trojúhelník.")
+else:
+    print("Takový trojúhelník nejde.")

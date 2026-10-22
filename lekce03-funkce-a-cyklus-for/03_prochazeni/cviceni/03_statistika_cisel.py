@@ -7,3 +7,20 @@
 #    Nepoužívej funkce sum, max ani min – spočítej vše sama cyklem.
 
 
+pocet = int(input("Kolik bude čísel? "))
+prvni = int(input("Zadej první číslo: "))
+soucet = prvni
+nejvetsi = prvni
+nejmensi = prvni
+for i in range(pocet - 1):
+    cislo = int(input("Další číslo: "))
+    soucet = soucet + cislo
+    if cislo > nejvetsi:
+        nejvetsi = cislo
+    if cislo < nejmensi:
+        nejmensi = cislo
+print("Součet: ", soucet)
+print("Průměr:", soucet / pocet)
+print("Největší: ", nejvetsi)
+print("Nejmenší: ", nejmensi)
+

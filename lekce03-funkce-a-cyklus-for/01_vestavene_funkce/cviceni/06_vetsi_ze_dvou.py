@@ -3,4 +3,6 @@
 
 # Zeptej se uživatele na dvě čísla a vypiš to větší z nich.
 
-
+a = float(input("Prvni cislo: "))
+b = float(input("Druhe cislo: "))
+print(max(a, b))

@@ -5,8 +5,14 @@
 #    a vypiš True/False podle toho, jestli má na vyznamenání
 #    (průměr menší nebo rovný 2).
 #    Zamysli se: kdyby vyšlo True, co by program mohl studentce napsat?
-znamka1 = 1
+
+
+znamka1 = 3
 znamka2 = 3
 znamka3 = 2
-
-
+prumer = (znamka1 + znamka2 + znamka3) / 3
+print(prumer <= 2)
+if prumer <= 2:
+    print("Blahopřeji k vyznamenání.")
+else:
+    print("Vyznamenání to není")

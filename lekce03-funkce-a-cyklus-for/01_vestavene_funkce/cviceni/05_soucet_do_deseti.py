@@ -3,4 +3,7 @@
 
 # Vypiš součet všech čísel od 1 do 10.
 
+# nechápu zadání
+
+print(sum(range(1, 11)))
 

@@ -5,4 +5,5 @@
 #    jestli je větší než 100.
 #    (Vzpomeň si z minula: text z input() převedeš na číslo pomocí int().)
 
-
+cislo = int(input("Číslo: "))
+print(cislo > 100)

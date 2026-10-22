@@ -4,4 +4,7 @@
 # Ptej se uživatele "Jaké je hlavní město Česka? " tak dlouho,
 #    dokud nenapíše "Praha". Pak vypiš "Správně!".
 
-
+mesto = input("Jaké je hlavní město Česka? ")
+while mesto != "Praha":
+    mesto = input("Zkus to znova... ")
+print("Správně.")

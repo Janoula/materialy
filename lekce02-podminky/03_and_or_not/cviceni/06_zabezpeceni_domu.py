@@ -7,4 +7,11 @@
 #    "Pozor, dům není zabezpečený!", když zabezpečený NENÍ,
 #    jinak vypiš "Zabezpečeno.".
 
+dvere = input("Jsou dveře zavřené (ano/ne)? ")
+okna = input("Jsou okna zavřená (ano/ne)? ")
+alarm = input("Je alarm zapnutý (ano/ne)? ")
 
+if not (dvere == "ano" and okna == "ano" and alarm == "ano"):
+    print("Pozor, dům není zabezpečen.")
+else:
+    print("Zabezpečen.")

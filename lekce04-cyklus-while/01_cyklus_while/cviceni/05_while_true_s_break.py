@@ -5,4 +5,10 @@
 #    Když uživatel napíše "konec", ukonči cyklus příkazem break.
 #    Použij while True.
 
+while True:
+    slovo = input("Napiš slovo: ")
+    if slovo == "konec":
+        break
+    print(slovo)
+print("Konec.")
 

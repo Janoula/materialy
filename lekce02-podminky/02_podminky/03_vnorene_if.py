@@ -8,8 +8,8 @@
 # ještě o kus dál.
 
 
-venku_prsi = True
-mam_destnik = False
+venku_prsi = False
+mam_destnik = True
 
 if venku_prsi:
     print("Venku prší.")

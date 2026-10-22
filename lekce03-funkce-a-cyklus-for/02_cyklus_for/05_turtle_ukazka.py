@@ -17,9 +17,9 @@ import turtle
 
 
 # Čtverec: čtyřikrát „popojeď dopředu a otoč se o 90 stupňů".
-for strana in range(4):
-    turtle.forward(100)     # popojeď o 100 kroků
-    turtle.left(90)         # otoč se o 90 stupňů doleva
+# for strana in range(4):
+#     turtle.forward(100)     # popojeď o 100 kroků
+#     turtle.left(90)         # otoč se o 90 stupňů doleva
 
 
 # Zkus si pohrát s čísly:
@@ -28,5 +28,15 @@ for strana in range(4):
 #   8 stran a otočka  45 stupňů   → osmiúhelník
 # (Otočka je vždycky 360 děleno počtem stran.)
 
-
+# for strana in range(8):
+#     turtle.forward(100)
+#     turtle.left(45)
+turtle.forward(80)
+turtle.right(90)
+turtle.forward(100)
+for strana in range(3):
+    turtle.right(45)
+    turtle.forward(25)
+turtle.right(90)
+turtle.forward(120)
 turtle.done()               # nechá okno otevřené, dokud ho nezavřeš

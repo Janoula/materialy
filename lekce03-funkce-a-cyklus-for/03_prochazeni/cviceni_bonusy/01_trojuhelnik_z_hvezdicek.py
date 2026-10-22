@@ -7,4 +7,7 @@
 #     **
 #     ***
 
-
+vyska = int(input("Výška: "))
+for i in range(1, vyska + 1):
+    print("*" * i)
+print()

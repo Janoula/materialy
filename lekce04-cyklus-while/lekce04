@@ -1,0 +1,52 @@
+# for i in range(0, 5):
+#     print(i)
+# print("Konec.")
+
+# heslo = input("Heslo: ")
+
+# if heslo == "pyladies":
+#     print("OK")
+# else:
+#     print("Neprihlaseno.")
+
+# heslo = input("Heslo: ")
+# while heslo != "pyladies":
+#     print("Špatně.")
+#     heslo = input("Zkus to znova: ")
+# print("VÍTEJ!")
+
+# from random import randrange
+
+# hod = randrange(1, 7)
+# while hod < 6:
+#     if hod == 1:
+#         print("Končíš, protože padla", hod, ".")
+#         break
+#     print("Padlo", hod, "a hazime znovu.")
+#     hod = randrange(1, 7)
+# if hod == 1:
+#     print("Prohrála jsi.")
+# else:
+#     print("Padla", hod, "- vyhráváš.")
+
+# while True:
+#     odpoved = input("Jak je? ")
+#     if odpoved == "spatne":
+#         print("tak to se s tebou nebudu bavit.")
+#         break
+#     print("Ahoj!")
+# print("Zastav se priste.")
+
+soucet = 0
+while True:
+    odpoved = input("Zadej cislo (nebo *konec*): ")
+    if odpoved == "konec":
+        break
+    cislo = int(odpoved)
+    if cislo < 0:
+        print("Zaporna cisla ignoruju.")
+        continue
+    soucet = soucet + cislo
+    print("Zatim mame", soucet)
+print("Soucet: ", soucet)
+    

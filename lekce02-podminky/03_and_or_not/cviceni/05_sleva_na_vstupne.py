@@ -5,4 +5,9 @@
 #    Navíc mají v pondělí slevu úplně všichni.
 #    Zeptej se na věk a na den a vypiš "Máš slevu." / "Plné vstupné.".
 
-
+vek = int(input("Věk: "))
+den = input("Den (Po-Ne): ")
+if (vek < 18 or vek > 64) or den == "Po":
+    print("Máš slevu.")
+else:
+    print("Plná cena.")

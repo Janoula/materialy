@@ -5,6 +5,13 @@
 #    nebo "zelená"). Vypiš, co má řidič udělat:
 #    "červená" → "Stůj", "oranžová" → "Připrav se", "zelená" → "Jeď",
 #    cokoli jiného → "Neznámý signál".
-barva = "zelená"
+barva = input("Jaká svítí barva? ")
 
-
+if barva == "zelená":
+    print("Jeď!")
+elif barva == "oranžová":
+    print("Připrav se.... ")
+elif barva == "červená":
+    print("STŮJ")
+else:
+    print("Signál je neznámý.")

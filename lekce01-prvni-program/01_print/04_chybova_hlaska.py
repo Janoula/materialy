@@ -9,7 +9,7 @@
 
 
 # Na řádku níž chybí uvozovky kolem textu:
-print(Máma má mísu)
+print("Máma má mísu")
 
 
 # V terminálu uvidíš něco podobného:

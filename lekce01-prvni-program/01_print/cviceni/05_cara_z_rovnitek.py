@@ -3,4 +3,4 @@
 
 # Vypiš čáru z 15 rovnítek (=). Použij opakování hvězdičkou *.
 
-
+print("=" * 15)

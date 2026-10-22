@@ -4,4 +4,5 @@
 # Máš 200 minut. Vypiš, kolik je to celých hodin
 #     a kolik minut zbyde.
 
-
+print(200 // 60, "hodin")
+print(200 % 60, "minut")

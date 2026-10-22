@@ -16,7 +16,7 @@
 #       ...
 
 
-znamka = 2
+znamka = 3
 
 if znamka == 1:
     print("Výborně!")
@@ -35,7 +35,7 @@ else:
 
 # else je nepovinné. Když ho vynecháš a žádná podmínka neplatí,
 # neudělá se prostě nic:
-teplota = 25
+teplota = -2
 
 if teplota < 0:
     print("Mrzne.")

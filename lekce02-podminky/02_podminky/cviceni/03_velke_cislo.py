@@ -4,4 +4,9 @@
 # Zeptej se uživatele na číslo. Vypiš "Velké číslo!", když je větší
 #    než 100, jinak "Malé číslo.".
 
+cislo = int(input("Číslo: "))
+if cislo >= 100:
+    print("Velké číslo!")
+else:
+    print("Nic moc.")
 

@@ -8,4 +8,13 @@
 #    - za dělitelné jen pěti vypiš "Bác",
 #    - jinak vypiš samotné číslo.
 
-
+for i in range(1,31):
+    if i % 3 == 0 and i % 5 == 0:
+        print("Bumbác")
+    elif i % 3 == 0:
+        print("Bum")
+    elif i % 5 == 0:
+        print("Bác")
+    else:
+        print(i)
+print("hotovo")

@@ -6,7 +6,7 @@
 #    "červená" → "Stůj", "oranžová" → "Připrav se", "zelená" → "Jeď",
 #    cokoli jiného → "Neznámý signál".
 
-barva = "zelená"
+barva = "modrá"
 if barva == "červená":
     print("Stůj")
 elif barva == "oranžová":
