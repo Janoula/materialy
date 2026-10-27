@@ -17,4 +17,4 @@ def oddelovac(znak="*", delka=30):
 
 oddelovac()
 oddelovac("=")
-oddelovac("-", 10)
+oddelovac("-", 20)

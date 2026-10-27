@@ -6,4 +6,17 @@
 #     spocitej_pismeno("kolotoč", "o") vrátí 3.
 #     Nechej si zadat slovo i písmeno od uživatele a výsledek vypiš.
 
+def spocitej_pismeno(slovo, pismeno):
+    stav = 0
+    for znak in slovo:
+        if znak == pismeno:
+            stav = stav + 1
+        else:
+            continue
+    print("Počet", pismeno, "v", slovo, "je", stav, ".")
+
+slovo = input("Zadej slovo: ")
+pismeno = input("Jaké písmeno chceš spočítat? ")
+spocitej_pismeno(slovo, pismeno)
+
 

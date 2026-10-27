@@ -1,12 +1,12 @@
-def vypis_cisla_do_max_hodnota(max_hodnota, jmeno_volani, ukaz_caru = True):
-    for aktualni_cislo in range(1, max_hodnota + 1):
-        print(jmeno_volani+":", aktualni_cislo)
-    if ukaz_caru:
-        print("-" * 30)
+# def vypis_cisla_do_max_hodnota(max_hodnota, jmeno_volani, ukaz_caru = True):
+#     for aktualni_cislo in range(1, max_hodnota + 1):
+#         print(jmeno_volani+":", aktualni_cislo)
+#     if ukaz_caru:
+#         print("-" * 30)
 
-vypis_cisla_do_max_hodnota(1, "Volání A")
-vypis_cisla_do_max_hodnota(10, "Volání B")
-vypis_cisla_do_max_hodnota(20, "Volání C", False)
+# vypis_cisla_do_max_hodnota(1, "Volání A")
+# vypis_cisla_do_max_hodnota(10, "Volání B")
+# vypis_cisla_do_max_hodnota(20, "Volání C", False)
 
 def cena_mhd(vek):
     print("Pocitam cenu listku pro", vek)

@@ -5,4 +5,9 @@
 #    z pomlček dlouhou přesně jako ten text.
 #    Vyzkoušej ji na dvou různě dlouhých nadpisech.
 
+def nadpis(text):
+    delka = len(text)
+    print(text, "-" * delka, sep = "\n")
 
+nadpis("Horní Počernice")
+nadpis("Cvičení 4")

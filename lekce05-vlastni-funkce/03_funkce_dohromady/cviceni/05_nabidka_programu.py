@@ -14,4 +14,32 @@
 #    Použij cyklus while True.
 #    Zobrazení nabídky i obě akce napiš jako vlastní funkce.
 
+def nabidka():
+    while True:
+        print("Nabídka:", "1 - hodit kostkou", "2 - pozdravit", "3 - konec", sep="\n")
+        volba = input("Co zvolíš? ")
+        if volba == "1":
+            kostka()
+        elif volba == "2":
+            pozdrav()
+        elif volba == "3":
+            print("konec")
+            break
+        else:
+            print("Tohle neznám. Zkus to znova.")
+            continue
+        break
 
+     
+
+def kostka():
+    from random import randrange
+    print(randrange(1, 7))
+    nabidka()
+
+def pozdrav():
+    jmeno = input("Jak se jmenuješ? ")
+    print("Ahoj, ", jmeno, "!")
+    nabidka()
+
+nabidka()

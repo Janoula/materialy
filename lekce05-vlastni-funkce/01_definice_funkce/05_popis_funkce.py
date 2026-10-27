@@ -39,3 +39,5 @@ help(zkontroluj_heslo)
 
 # Ve VS Code se ten stejný text objeví sám, když na jméno funkce najedeš
 # myší nebo když za ni napíšeš levou závorku.
+
+zkontroluj_heslo()

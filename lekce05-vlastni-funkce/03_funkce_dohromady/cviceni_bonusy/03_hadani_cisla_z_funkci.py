@@ -5,4 +5,22 @@
 #     načtení tipu i vyhodnocení ať má každé svoji.
 #     Hlavní cyklus while pak jenom tyhle funkce volá.
 
+def losovani():
+    from random import randrange
+    return randrange(1, 7)
+   
+def nacteni():
+    return int(input("Tvůj tip: "))
+    
+    
+def vyhodnoceni(tip, los):
+    return tip == los
 
+los = losovani()
+while True:
+    tip = nacteni()
+    if vyhodnoceni(tip, los):
+        print("Správně!")
+        break
+    else:
+        print("Tak příště...")

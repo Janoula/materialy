@@ -9,4 +9,12 @@ def nadpis(text):
     print(text)
     print("-" * len(text))
 
+def zeptej_se_na_slovo():
+    while True:
+        slovo = input("Zadej slovo alespoň o třech písmenech: ")
+        if len(slovo) > 3:
+            return slovo
+        else:
+            continue
 
+nadpis(zeptej_se_na_slovo())

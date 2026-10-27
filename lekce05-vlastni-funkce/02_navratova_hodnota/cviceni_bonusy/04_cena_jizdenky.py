@@ -10,3 +10,17 @@
 #       ostatní                     plná cena
 #
 #     Vyzkoušej ji pro několik věků a ceny vypiš.
+
+def cena_jizdenky(vek, zaklad):
+    if vek <= 10:
+        return 0
+    elif vek <= 18:
+        return zaklad / 2
+    elif vek >= 65:
+        return zaklad / 3
+    else:
+        return zaklad
+    
+print("Tvoje jízdenka stojí", cena_jizdenky(15, 30))
+print("Tvoje jízdenka stojí", cena_jizdenky(66, 90))
+print("Tvoje jízdenka stojí", cena_jizdenky(6, 10))

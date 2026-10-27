@@ -9,4 +9,21 @@
 #        oddelovac("=")
 #        oddelovac("-", 10)
 
+def oddelovac(znak = "*", pocet = 30):
+    print(znak * pocet)
 
+oddelovac()
+oddelovac("=")
+oddelovac("-", 15)
+
+# def oddelovac(znak = True, pocet = True):
+#     if znak == "=":
+#         print("=" * pocet)
+#     elif znak == "-":
+#         print("-" * pocet)
+#     else:
+#        print("*" * 30)
+
+# oddelovac()
+# oddelovac("=")
+# oddelovac("-", 10)
