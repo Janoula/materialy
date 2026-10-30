@@ -7,3 +7,15 @@
 #
 #    V lekci 5 jsi PINu dávala tři pokusy na uhodnutí. Tady jde o to,
 #    jestli vůbec vypadá jako PIN.
+
+pin = input("Zadej čtyřmístný pin: ").strip()
+def je_ze4(pin, delka):
+    return len(pin) == int(delka)
+
+if pin.isdigit():
+    if je_ze4(pin, "4"):
+        print("Tohle může být pin.")
+    else:
+        print("Zadej pouze 4 čísla.")     
+
+

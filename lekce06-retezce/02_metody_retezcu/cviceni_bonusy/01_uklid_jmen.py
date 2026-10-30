@@ -12,3 +12,7 @@
 jmeno1 = "  anna NOVÁKOVÁ  "
 jmeno2 = "PETRA svobodová"
 jmeno3 = " tereza Dvořáková   "
+
+print(f"{jmeno1.strip().title()} -> {jmeno1.strip().lower().replace(" ",".")}")
+print(f"{jmeno2.strip().title()} -> {jmeno2.strip().lower().replace(" ",".")}")
+print(f"{jmeno3.strip().title()} -> {jmeno3.strip().lower().replace(" ",".")}")

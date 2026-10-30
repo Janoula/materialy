@@ -7,3 +7,15 @@
 #    Nakonec vypiš objednanou velikost velkým písmenem.
 #
 #    Cyklus while True a break znáš z lekce 4.
+
+while True:
+    velikost = input("Jak velké tričko si chceš objednat? ")
+    upravena = velikost.strip().upper()
+    if upravena in "SML":
+        break
+    else:
+        print("Takovou velikost nemáme.")
+        continue
+
+print(f"Objednala sis velikost {upravena}.")
+

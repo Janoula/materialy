@@ -6,3 +6,10 @@
 #    vyjde, tím líp. Třeba:
 #
 #    Dneska jsem viděla fialový rohlík, jak programuje.
+
+podstatne = input("Podstatné jméno: ")
+sloveso = input("Sloveso: ")
+pridavne = input("Přídavné jméno: ")
+
+print(f"Zítra {sloveso} v {pridavne} {podstatne}.")
+

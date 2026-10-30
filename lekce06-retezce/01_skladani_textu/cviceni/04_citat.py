@@ -3,3 +3,5 @@
 
 # Vypiš větu, ve které je jedno slovo v uvozovkách. Třeba:
 #    Na tabuli stálo "Vítejte".
+
+print("Na tabuli stálo \"Vítejte\".")

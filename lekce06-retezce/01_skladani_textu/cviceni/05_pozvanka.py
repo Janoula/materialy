@@ -15,3 +15,10 @@ jmeno = "Anna Nováková"
 den = "čtvrtek"
 hodina = 18
 misto = "Dlouhá 5"
+
+
+print(f"""POZVÁNKA
+{jmeno}
+
+Kurz pokračuje ve {den} od {hodina} hodin.
+Místo: {misto}""")

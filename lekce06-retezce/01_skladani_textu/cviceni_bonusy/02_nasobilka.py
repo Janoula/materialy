@@ -14,3 +14,17 @@
 #
 #    Vnořené cykly i print s end znáš z lekce 3. Nové je jen to,
 #    kolik místa každému číslu dáš.
+
+r = int(input("Počet řádků: "))
+s = int(input("Počet sloupců: "))
+soucin = r * s
+cifer = max(len(str(r)), len(str(s)), len(str(soucin)))
+print(cifer)
+misto = cifer + 2
+for r in range(1, r + 1):
+    for s in range(1, s + 1):
+        print(f"{r * s:{misto}}", end = " ")
+    print()
+    
+
+

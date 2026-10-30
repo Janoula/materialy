@@ -8,3 +8,9 @@
 #    - kolikrát je v něm písmeno "a".
 #
 #    Délku umí len() z lekce 3, zbytek jsou metody z výkladu.
+
+slovo = input("Zadej slovo: ")
+print(slovo.upper())
+print(slovo.lower())
+print(len(slovo))
+print(slovo.count("a"))
