@@ -6,3 +6,9 @@
 #    zamen("palec", 0, "v") vrátí "valec"
 #    zamen("valec", 2, "j") vrátí "vajec"
 
+def zamen(slovo, pozice, pismeno):
+    return slovo[:pozice -1] + pismeno + slovo[pozice:]
+
+print(zamen("hromada", 7, "y"))
+print(zamen("valec", 3, "j"))
+

@@ -13,3 +13,46 @@
 #    Na velké písmeno stačí porovnat heslo se sebou samým po lower().
 #    Jde to ale i cyklem jako u číslice – každého znaku se tam zeptáš
 #    metodou isupper().
+
+while True:
+    heslo = input("Zadej heslo: ")
+    if heslo == heslo.lower():
+        print("Zadej alespoň jedno velké písmeno.")
+        print("Zkus to znova.")
+        continue
+    else:
+        print("Heslo obsahuje velké písmeno.")
+    if len(heslo) < 8:
+        delka = False
+        print("Heslo je moc krátké")
+        print("Zkus to znova.")
+        continue
+    else:
+        if len(heslo) >= 8:
+            delka = True
+            print("Heslo je dostatečně dlouhé")
+    for znak in heslo:
+        if znak.isdigit():
+            pismeno = True
+            print("Heslo obsahuje číslo.")
+            break
+        else:
+            pismeno = False
+    if delka == True and pismeno == True:
+        print("Tohle je správné heslo.")
+        break
+    elif delka == False:
+        print("Heslo musí mít alespoň 8 znaků.")
+        continue
+    elif pismeno == False:
+        print("Heslo musím mít alespoň jedno číslo.")
+        continue
+    else:
+        print("Někde je chyba.")
+        break
+
+
+
+
+
+

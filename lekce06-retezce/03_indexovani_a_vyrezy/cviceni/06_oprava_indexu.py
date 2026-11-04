@@ -5,4 +5,6 @@
 #    hlášku a oprav ho.
 
 slovo = "PyLadies"
-print("Poslední písmeno:", slovo[len(slovo)])
+print("Poslední písmeno:", slovo[len(slovo)-1])
+
+

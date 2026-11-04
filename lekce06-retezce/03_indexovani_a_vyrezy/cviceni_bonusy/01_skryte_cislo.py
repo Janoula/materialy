@@ -5,5 +5,9 @@
 #    Zbytek nahraď hvězdičkami, ať jich je přesně tolik jako
 #    skrytých číslic.
 
-cislo = "4539112233447788"
+cislo = "4539447788"
+
+delka_hvezd = len(cislo) - 4
+print((delka_hvezd * "*")+cislo[-4:])
+
 
