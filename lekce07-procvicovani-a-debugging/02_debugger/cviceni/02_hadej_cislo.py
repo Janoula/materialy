@@ -18,12 +18,12 @@ def zeptej_se_na_tip():
     return int(input("Hádej číslo od 1 do 20: "))
 
 
-def je_trefa(tip, hledane):
-    return tip == hledane
+def je_trefa(tip, hledane_cislo):
+    return tip == hledane_cislo
 
 
-def napoveda(tip, hledane):
-    if tip > hledane:
+def napoveda(tip, hledane_cislo):
+    if tip > hledane_cislo:
         return "Moc velké."
     else:
         return "Moc malé."

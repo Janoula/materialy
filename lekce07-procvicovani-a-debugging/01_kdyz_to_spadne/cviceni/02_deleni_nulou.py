@@ -6,7 +6,7 @@
 znamky = "13245"
 
 soucet = 0
-pocet = 0
+pocet = len(znamky)
 
 for znak in znamky:
     soucet = soucet + int(znak)

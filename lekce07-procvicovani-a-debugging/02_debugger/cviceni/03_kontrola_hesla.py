@@ -2,6 +2,8 @@
 # Spusť soubor (Run) třikrát a zadej postupně hesla ze seznamu níž.
 # Chyby jsou dvě. Najdi je debuggerem a oprav.
 
+# 1. chybba ř. 16 - upper na lower()
+# 2. chyba po ř. 22 chybí break - správně ma_cislici = True se dalsim znakem, který není digit přepíše na False.
 # Kontrolu hesla znáš z bonusu v šesté lekci. Heslo projde, když má
 # aspoň osm znaků, aspoň jednu číslici a aspoň jedno velké písmeno.
 #
@@ -12,12 +14,13 @@
 heslo = input("Zadej heslo: ")
 
 dost_dlouhe = len(heslo) >= 8
-ma_velke = heslo != heslo.upper()
+ma_velke = heslo != heslo.lower()
 
 ma_cislici = False
 for znak in heslo:
     if znak.isdigit():
         ma_cislici = True
+        break
     else:
         ma_cislici = False
 

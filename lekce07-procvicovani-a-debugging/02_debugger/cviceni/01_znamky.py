@@ -19,7 +19,7 @@ def prumer(test1, test2, test3):
 
 
 def slovni_znamka(body):
-    if body > 90:
+    if body >= 90:
         return "výborně"
     elif body >= 75:
         return "chvalitebně"
@@ -41,9 +41,9 @@ def prospel(znamka):
 def vysvedceni(jmeno, test1, test2, test3):
     body = prumer(test1, test2, test3)
     znamka = slovni_znamka(body)
-    return f"{jmeno}: {body:.1f} bodů, {znamka}, {prospel(body)}"
+    return f"{jmeno}: {body:.1f} bodů, {znamka}, {prospel(znamka)}"
 
 
-print(vysvedceni("Jana", 40, 35, 45))
-print(vysvedceni("Petr", 95, 88, 91))
+print(vysvedceni("Jana", 90, 95, 45))
+print(vysvedceni("Petr", 32, 31, 28))
 print(vysvedceni("Klára", 88, 91, 91))
