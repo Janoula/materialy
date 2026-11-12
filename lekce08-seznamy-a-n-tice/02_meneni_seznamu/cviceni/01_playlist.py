@@ -10,3 +10,12 @@
 #    Vyjít má:  ['Severní vítr', 'Jožin z bažin', 'Trezor']
 
 playlist = ["Trezor", "Severní vítr", "Holky z naší školky"]
+
+prvni = playlist.pop(0)
+print(playlist)
+playlist = playlist + [prvni]
+print(playlist)
+playlist[1:1] = ["Jožin z bažin"]
+print(playlist)
+playlist.remove("Holky z naší školky")
+print(playlist)

@@ -6,3 +6,9 @@
 #    Vstup uprav tak, aby prošlo i " anna " nebo "ANNA".
 
 hoste = ["Anna", "Petra", "Jana", "Eva"]
+
+prichozi = input("Kdo jsi? ").strip().title()
+if prichozi in hoste:
+    print("Vítej!")
+else:
+    print("Na seznamu nejsi.")

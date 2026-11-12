@@ -7,3 +7,11 @@
 #    - první tři filmy jako výřez,
 #    - všechny filmy, každý na vlastní řádek s pomlčkou na začátku,
 #    - kolik filmů v seznamu je.
+
+filmy = ["Ptáci", "Otec", "Toni Erdmann", "Pějme píseň dohola", "Nevinnost"]
+print(filmy[0])
+print(filmy[-1])
+print(filmy[:3])
+for film in range(len(filmy)):
+    print("-", filmy[film])
+print(len(filmy))
